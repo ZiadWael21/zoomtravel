@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZOOM TRAVEL</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+     <!-- ===== Link Swiper's CSS ===== -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header" id="header">
+      <div class="container">
+        <a href="#" class="logo" ><img id="logopc" src="imgs/logo.png" alt=""></a>
+        <ul class="main-nav">
+          <li><a href="#articles">popular activities</a></li>
+          <li><a href="#testimonials">testimonials</a></li>
+          <li><a href="#services">why choose us</a></li>
+          <!-- <li><a href="#discount">discount</a></li> -->
+          <!-- <li> -->
+            <!-- <a href="#">things to do</a> -->
+            <!-- Start Megamenu -->
+            <!-- <div class="mega-menu">
+              <div class="image">
+                <img src="imgs/7202880.jpg" alt="" />
+              </div>
+              <ul class="links">
+                <li>
+                  <a href=""> Attractions & tickets </a>
+                </li>
+                <li>
+                  <a href=""> Outdoors & sports theme </a>
+                </li>
+                <li>
+                  <a href=""> Relaxation</a>
+                </li>
+                <li>
+                  <a href="">Events & movies </a>
+                </li>
+                <li>
+                  <a href=""> Fun & culture </a>
+                </li>
+              </ul>
+              <ul class="links">
+                <li>
+                  <a href="#"> Water sports & activities </a>
+                </li>
+                <li>
+                  <a href="#">free WiFi </a>
+                </li>
+                <li>
+                  <a href="#">Banks and ATMs</a>
+                </li>
+                <li>
+                  <a href="#">Emergency</a>
+                </li>
+                <li>
+                  <a href="#discount"> Request A Discount</a>
+                </li>
+              </ul>
+            </div> -->
+            <!-- End Megamenu -->
+          <!-- </li> -->
+        </ul>
+      </div>
+    </div>
+    <!-- End Header -->
+    <!-- start swiper-->
+    <!-- <div class="search-bar">
+      <form action="">
+        <input id="searchbr" type="email" placeholder="Enter Your Email" />
+        <input id="searchbtn" type="submit" value="Subscribe" />
+      </form>
+    </div> -->
+  <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="imgs/pyram.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">ZOOM TRAVEL</span>
+            <h2>
+              Discover the most amazing and fun places with us
+            </h2>
+            <a href="#" class="button">download app</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="imgs/exp.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">ZOOM TRAVEL</span>
+            <h2>
+              Get the best service and experience with us
+            </h2>
+            <a href="#" class="button">download app</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="imgs/mab.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">ZOOM TRAVEL</span>
+            <h2>
+              We will make it easy for you to get the best vacation
+            </h2>
+            <a href="#" class="button">download app</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        autoplay:{
+          delay: 4000,
+          disableOnInteraction: false,
+      },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- Start Articles -->
+    <div class="articles" id="articles">
+      <h2 class="main-title">popular activities</h2>
+      <div class="container">
+        <div class="box">
+          <img src="imgs/et1.jpg" alt="" />
+          <div class="content">
+            <h3>the Egyptian desert</h3>
+            <p>Visiting the Egyptian desert is one of the most enjoyable adventures you can have</p>
+          </div>
+          <div class="info">
+            <a href="">Read More</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="imgs/et2.jpg" alt="" />
+          <div class="content">
+            <h3>The ancient temples</h3>
+            <p>The ancient temples are among the most important places in Egypt</p>
+          </div>
+          <div class="info">
+            <a href="">Read More</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="imgs/et3.jpg" alt="" />
+          <div class="content">
+            <h3>Archaeological inscriptions</h3>
+            <p>Archaeological inscriptions, civilization and history written on the wall</p>
+          </div>
+          <div class="info">
+            <a href="">Read More</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="imgs/et4.jpg" alt="" />
+          <div class="content">
+            <h3>Qaitbay Citadel</h3>
+            <p>Qaitbay Citadel is one of the most important cultural landmarks in Egypt</p>
+          </div>
+          <div class="info">
+            <a href="">Read More</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="imgs/et5.jpg" alt="" />
+          <div class="content">
+            <h3>Ancient mosques</h3>
+            <p>Ancient mosques in Egypt are a source of knowledge and knowledge of the Islamic religion</p>
+          </div>
+          <div class="info">
+            <a href="">Read More</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="imgs/et6.jpg" alt="" />
+          <div class="content">
+            <h3>Rams Road</h3>
+            <p>Rams Road is one of the best landmarks in Egypt and is considered a masterpiece</p>
+          </div>
+          <div class="info">
+            <a href="">Read More</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="imgs/et7.jpg" alt="" />
+          <div class="content">
+            <h3>The Giza pyramids</h3>
+            <p>The Giza pyramids are one of the Seven Wonders of the World and the most important archaeological site in the world</p>
+          </div>
+          <div class="info">
+            <a href="">Read More</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="imgs/et8.jpg" alt="" />
+          <div class="content">
+            <h3>The civilization of ancient Egypt</h3>
+            <p>The civilization of ancient Egypt is the oldest civilization in the world and is considered one of the most important civilizations</p>
+          </div>
+          <div class="info">
+            <a href="">Read More</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spikes"></div>
+    <!-- End Articles -->
+    <!-- Start Testimonials -->
+    <div class="testimonials" id="testimonials">
+      <h2 class="main-title">Testimonials</h2>
+      <div class="container">
+        <div class="box">
+          <img src="imgs/avatar-01.png" alt="" />
+          <h3>Mohamed Farag</h3>
+          <span class="title">content strategist</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            A wonderful mobile application that made me spend an enjoyable vacation and taught me a lot of good places
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/avatar-02.png" alt="" />
+          <h3>Mohamed Ibrahim</h3>
+          <span class="title">solar consultant</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            It is really a wonderful invention that facilitates a lot of things and makes things smoother and knowing places more quickly
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/avatar-03.png" alt="" />
+          <h3>Shady Nabil</h3>
+          <span class="title">logistics manager</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            Lots of information in this mobile app and I'm really glad I got it before my vacation
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/avatar-04.png" alt="" />
+          <h3>Amr Hendawy</h3>
+          <span class="title">real estate manager</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+          </div>
+          <p>
+            A wonderful and distinctive application. Thank you to all those in charge of this great mobile application
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/avatar-05.png" alt="" />
+          <h3>Sherief Ashraf</h3>
+          <span class="title">product designer</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            I am happy with my experience with this mobile application, and it saved me a lot of time, and I also found many wonderful places
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/avatar-06.png" alt="" />
+          <h3>Osama Mohamed</h3>
+          <span class="title">Senior product manager</span>
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            I use this mobile application on all my vacations and in fact it is very useful
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Start Services -->
+    <div class="services" id="services">
+      <h2 class="main-title">Why choose ZOOM</h2>
+      <div class="container">
+        <div class="box">
+          <div class="icon">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/bwwdkiyf.json"
+                trigger="hover"
+                colors="primary:#c8cc8e,secondary:#569488"
+                state="hover"
+                style="width:250px;height:250px">
+            </lord-icon>
+          </div>
+          <h3>Enjoy Deals & Delights</h3>
+          <div class="info">
+            <a href="#">Details</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+          <lord-icon
+             src="https://cdn.lordicon.com/elzslyvl.json"
+             trigger="hover"
+             colors="primary:#c8cc8e,secondary:#569488"
+             style="width:250px;height:250px">
+          </lord-icon>
+          </div>
+          <h3>Find your destination easily</h3>
+          <div class="info">
+            <a href="#">Details</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/zniqnylq.json"
+                trigger="hover"
+                colors="primary:#c8cc8e,secondary:#569488"
+                style="width:250px;height:250px">
+            </lord-icon>
+          </div>
+          <h3>Discover new places</h3>
+          <div class="info">
+            <a href="#">Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Stats -->
+    <!-- <div class="stats" id="stats">
+      <h2>Our Awesome Stats</h2>
+      <div class="container">
+        <div class="box">
+          <i class="far fa-user fa-2x fa-fw"></i>
+          <span class="number" data-goal="150">0</span>
+          <span class="text">Clients</span>
+        </div>
+        <div class="box">
+          <i class="fas fa-code fa-2x fa-fw"></i>
+          <span class="number" data-goal="135">0</span>
+          <span class="text">Projects</span>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia fa-2x fa-fw"></i>
+          <span class="number" data-goal="50">0</span>
+          <span class="text">Countries</span>
+        </div>
+        <div class="box">
+          <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
+          <span class="number" data-goal="500">0</span>
+          <span class="text">Money</span>
+        </div>
+      </div>
+    </div> -->
+    <!-- End Stats -->
+    <!-- Start Discount -->
+    <!-- <div class="discount" id="discount">
+      <div class="image">
+        <div class="content">
+          <h2>We Have A Discount</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi asperiores consectetur, recusandae
+            ratione provident necessitatibus, cumque delectus commodi fuga praesentium beatae. Totam vel similique
+            laborum dicta aperiam odit doloribus corporis.
+          </p>
+          <img src="imgs/discount.png" alt="" />
+        </div>
+      </div>
+      <div class="form">
+        <div class="content">
+          <h2>Request A Discount</h2>
+          <form action="">
+            <input class="input" type="text" placeholder="Your Name" name="name" />
+            <input class="input" type="email" placeholder="Your Email" name="email" />
+            <input class="input" type="text" placeholder="Your Phone" name="mobile" />
+            <textarea class="input" placeholder="Tell Us About Your Needs" name="message"></textarea>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </div> -->
+    <!-- End Discount -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="box">
+          <h3>ZOOM TRAVEL</h3>
+          <ul class="social">
+            <li>
+              <a href="#" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text">
+            Follow us on social media and enjoy new places and great offers
+          </p>
+        </div>
+        <div class="box">
+          <ul class="links">
+            <li><a href="#">Important Link 1</a></li>
+            <li><a href="#">Important Link 2</a></li>
+            <li><a href="#">Important Link 3</a></li>
+            <li><a href="#">Important Link 4</a></li>
+            <li><a href="#">Important Link 5</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">Egypt, Port-said, Port-Fouad gomhorya st</div>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info">Business Hours: From 10:00 To 18:00</div>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+20123456789</span>
+              <span>+20198765432</span>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="box footer-gallery">
+          <img src=""" />
+          <img src=""" />
+          <img src=""" />
+          <img src=""" />
+          <img src=""" />
+          <img src=""" />
+        </div> -->
+      </div>
+      <p class="copyright">Made By ZOOM TRAVEL TEAM</p>
+    </div>
+    <!-- End Footer -->
+  </body>
+</html>
